@@ -1,0 +1,167 @@
+/*
+header, ul, p, div, nav, figure{
+border: 2px solid red !important;
+margin-top: 5px !important ;
+margin-bottom: 5px !important ;
+}
+*/
+
+body {
+    font-family: franklin-gothic-urw ;
+}
+
+/* header for every page */
+
+header{
+    font-size: 3em;
+    text-align: center ;
+    color: #EAEAEA;
+    padding-top: 30px ;
+}
+.header{
+    font-size: 1.25em ;
+    text-align: center ;
+    color: #EAEAEA;
+    padding-bottom: 40px ;
+}
+header, .header{
+    border: 1px solid #8E793D ;
+    background-color: #8E793D ;
+}
+ul{
+    list-style-type: none ;
+    border: solid 1px #231F20 ;
+    background-color: #231F20 ;
+    padding: 15 50 15 30 ;
+    margin-bottom: 30px ;
+    margin-top: -16px ;
+}
+
+li{
+    display: inline ;
+    font-size: 1.2em ;
+    padding: 15 50 15 100 ;
+    color: #EAEAEA ;
+    font-style: normal ;
+    font-weight: 700 ;
+}
+
+li>a{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+li>a:visited{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+li>a:hover{
+    color: #EAEAEA ;
+    text-decoration: none ;
+}
+
+.pageID{
+    font-size: 1.75em ;
+/*    text-decoration: underline ;*/
+    font-weight: 600 ;
+    margin-left: 130px ;
+}
+
+/*for index page*/
+
+.blurb{
+    border: 1px solid white;
+    padding: 5px 130px 5px 130px ;
+    margin-top: 40px ;
+    margin-bottom: 50px ;
+}
+
+/*for id page*/
+
+.one{
+    text-decoration: underline ;
+}
+.two{
+    margin-left: 240px ;
+}
+
+a{
+    text-decoration: none ;
+    color: #2D2A2B ;
+}
+
+a:vistited{
+    color: #DDDDDD ;
+}
+
+a:hover{
+    text-decoration: underline ;
+    color: #DDDDDD ;
+}
+
+/*images*/
+
+img{
+    padding: 10 10 10 10 ;
+
+}
+
+.spotlight{
+    /*    margin-left: auto ;*/
+    /*    margin-right: auto ;*/
+    text-align: center ;
+    /*    width: 80% ;*/
+
+}
+
+.goldImg{
+    margin-left: 80px ;
+    
+}
+
+figure{
+    display: inline-block ;
+    width: 270px ;
+}
+
+figcaption{
+    font-size: .7em ;
+    padding-left: 10 ;
+}
+
+/*for information pages*/
+
+.info{
+    font-size: 1em ;
+    margin-left: 130px ;
+    margin-bottom: -15px;
+}
+
+.EInfo{
+    width: 300px ;
+    margin-left: 130px ;
+    margin-bottom: 30px ;
+    position: relative ;
+
+}
+
+.englehard1{
+    margin-left: 120px ;
+
+}
+
+
+/*
+figure.nextpage {
+    height: 150px ;
+    width: 100px ;
+    float: right ;
+    position: absolute ;
+    bottom: -125px ;
+    top: 295px ;
+    left: 850px ;
+
+}
+*/
+
